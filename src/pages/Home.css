@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .home-page {
+    text-align: center;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column;
+    height: 100vh; */
+  }
+  
+  .navbar {
+    background-color: rgb(25, 137, 25); /* Same color as the navbar */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    flex-shrink: 0; /* Ensures navbar height doesn't shrink */
+  }
+  
+  .cover-image-container {
+    flex-grow: 1; /* Take up remaining space between navbar and footer */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height:auto;
+    object-fit: cover; 
+    max-height: 500px;
+  }
+  
+  .overlay-content {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+  }
+  .overlay-content h1 {
+    font-size: 2.5rem; /* Increase font size for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .overlay-content p {
+    font-size: 1.2rem; /* Increase font size for the paragraph */
+    line-height: 1.8;
+    margin-top: 20px; /* Adds space between the heading and the paragraph */
+    padding: 0 15px; /* Adds padding inside the paragraph for better spacing */
+    text-align: justify; 
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: rgb(25, 137, 25); /* Same color as the navbar */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    flex-shrink: 0; /* Prevents the footer from shrinking */
+  }
+  

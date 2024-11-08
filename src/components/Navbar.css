@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: rgb(25, 137, 25); 
+    opacity: 0.9;
+    /* z-index: 1000;  */
+  
+
+  }
+  .navbar-logo {
+    width: 50px; 
+    margin-right: 10px; 
+  }
+.navbar .nav-link {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color:black; 
+    transition: color 0.3s; 
+  }
+  .navbar .nav-link:hover {
+    color: rgb(228, 236, 228);
+  }
+
+.select-role-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  transition: background-color 0.3s;
+ 
+}
+
+.select-role-btn:hover {
+  background-color: green;
+  color: white;
+}
+
+
+.navbar .nav-link:hover {
+  color: rgb(228, 236, 228);
+}

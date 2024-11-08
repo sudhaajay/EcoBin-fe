@@ -1,0 +1,81 @@
+.contact-container {
+    padding: 50px;
+    background-color: #095436;  /* Dark green background for the outer box */
+    border-radius: 8px;
+    max-width: 800px; /* Max width for the contact container */
+    margin: 0 auto 20px auto;; /* Center align the container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #ffffff; /* White text color for better visibility */
+  }
+  
+  .contact-heading {
+    font-size: 2.5rem; /* Large heading size */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px;
+  }
+  
+  .lead {
+    font-size: 1.5rem; /* Increased lead paragraph size */
+    text-align: center; /* Center align the lead text */
+    margin-bottom: 40px;
+  }
+  
+  .contact-form-container {
+    background: transparent; /* Keep this transparent */
+    border-radius: 8px; /* Rounded corners */
+    padding: 30px; /* Padding inside the form */
+  }
+  
+  .contact-form {
+    max-width: 600px; /* Limit form width */
+    margin: 0 auto; /* Center the form */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Space between form groups */
+   
+}
+  
+  .form-group label {
+    font-size: 1.3rem; /* Larger label font size */
+  }
+  
+  .form-control {
+    font-size: 1.3rem; /* Increased input font size */
+    padding: 12px; /* Add padding for comfort */
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .form-control:focus {
+    border-color: #fff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Light shadow on focus */
+  }
+  
+  .btn-success {
+    background-color: #ffffff; /* White background for button */
+    color: #1e5c28; /* Dark green text for button */
+    border: none; /* Remove border */
+    padding: 12px 20px; /* Button padding */
+    font-size: 1.3rem; /* Increase button text size */
+    transition: background-color 0.3s; /* Smooth background color change */
+    width: 100%; /* Full width button */
+  }
+  
+  .btn-success:hover {
+    background-color: #16ed2c; /* Darker green on hover */
+  }
+  
+  .contact-info {
+    margin-top: 40px; /* Space between form and contact info */
+  }
+  
+  .contact-info h4 {
+    font-size: 1.8rem; /* Larger contact info heading size */
+    margin-bottom: 15px; /* Space below heading */
+  }
+  
+  .contact-info ul {
+    font-size: 1.2rem; /* Increased font size of the list */
+  }
+  

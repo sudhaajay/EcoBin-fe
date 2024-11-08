@@ -1,0 +1,102 @@
+.services-container {
+    padding: 40px 20px; /* Add padding to the container */
+    background-color: #f9f9f9; /* Light background for contrast */
+  }
+  
+  .services-banner {
+    background-color: #095436; /* Dark green background for the entire banner */
+    padding: 40px 0; /* Increased padding for the banner */
+    color: white; /* Ensure the text color is white */
+    position: relative; /* For positioning the overlay */
+    overflow: hidden; /* Ensure the overlay doesn't go outside the banner */
+  }
+  
+  .services-banner .main-heading {
+    font-size: 2.8rem; /* Increased main heading size */
+    margin: 0; /* Remove default margin */
+    color: white; /* White text color for the main heading */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Optional text shadow */
+  }
+  
+  .services-banner .lead {
+    font-size: 1.7rem; /* Increased subheading size */
+    margin: 10px 0 0; /* Spacing above and below */
+    color: white; /* White text color for the lead paragraph */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Optional text shadow */
+  }
+  
+  .services-section {
+    background-color: white; /* White background for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 30px; /* Padding inside the section */
+  }
+  
+  .services-content {
+    text-align: center; /* Center align the text for a unified look */
+  }
+  
+  .light-green-heading {
+    font-size: 2.2rem; /* Increased section heading size */
+    color: #2ecc71; /* Light green color */
+  }
+  
+  .offer-description {
+    font-size: 1.4rem; /* Increased body text size */
+    color: #666; /* Grey text for readability */
+    text-align: center; /* Center align the offer description */
+    margin: 20px auto; /* Center with automatic margins */
+    max-width: 800px; /* Set a maximum width for better readability */
+  }
+  
+  .services-box {
+    margin-top: 20px; /* Margin at the top of the service box */
+  }
+  
+  .service-card {
+    background-color: #e7f9e8; /* Light green background for cards */
+    border-radius: 8px; /* Rounded corners for each service card */
+    padding: 20px; /* Padding inside the card */
+    margin: 15px 0; /* Space between cards */
+    text-align: left; /* Left align text for better readability */
+    transition: transform 0.2s;
+    position: relative; /* For position effects */
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  }
+  
+  .service-icon {
+    font-size: 3.5rem; /* Increased icon size */
+    color: #198754; /* Dark green color */
+    margin-bottom: 15px; /* Margin below the icon */
+  }
+  
+  .service-card h4 {
+    font-size: 1.7rem; /* Increased heading size for service titles */
+    color: #333; /* Dark grey for service titles */
+  }
+  
+  .service-card p {
+    font-size: 1.2rem; /* Increased body text size for service descriptions */
+    color: #666; /* Grey text for readability */
+  }
+  
+  .btn {
+    margin-top: 20px; /* Margin for button */
+    font-size: 1.2rem; /* Button text size */
+  }
+  
+  .services-footer {
+    margin-top: 30px; /* Margin at the top of the footer */
+  }
+  
+  .footer-text {
+    font-size: 1.4rem; /* Increased footer text size */
+    color: #333; /* Dark grey for footer text */
+    max-width: 800px; /* Set a maximum width for better readability */
+    margin: 0 auto; /* Center the footer text */
+  }
+  
